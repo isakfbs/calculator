@@ -1,0 +1,25 @@
+.calculator {
+  width: 30%;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+}
+
+.display {
+  background-color: white;
+  margin: 1%;
+}
+
+.buttons {
+  display: flex;
+}
+
+.numbers {
+  flex: 1;
+  order: 1;
+}
+
+.operators,
+.tools {
+  order: 2;
+}
